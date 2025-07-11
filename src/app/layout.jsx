@@ -40,13 +40,14 @@ export default function RootLayout() {
                   className="my_image rounded-md ml-[40px]"
                 />
               </div>
-              <div className="right_pane text-center p-10">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-100 ml-[10px]">
-                  Yow! I'm <b className="text-white text-shadow-2xs">Jestoni De Ocampo Babas</b>
+              <div className="right_pane text-center text-shadow-lg p-10 w-[100%]">
+                <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl text-slate-100 ml-[10px]">
+                  Yow! I'm <b className="text-white">Jestoni De Ocampo Babas</b>
                 </h1>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-slate-100 ml-[10px]">
+                <br/>
+                <h1 className="text-2xl text-slate-100 ml-[10px]">
                   <Typewriter
-                    words={['A Passionate WEB DEVELOPER!', 'Turning coffee into awesome website.', 'Enjoy your stay.']}
+                    words={['A Passionate WEB DEVELOPER!', 'Turning coffee into awesome website']}
                     loop={0}
                     cursor
                     cursorStyle='_'
